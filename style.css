@@ -1,11 +1,11 @@
 #draggable {
-    width: 300px;
+    width: 400px;
     height: 80px;
     text-align: center;
 }
 
 .dropzone {
-    width: 500px;
+    width: 400px;
     height: 110px;
     background: orangered;
     margin-bottom: 50px;
