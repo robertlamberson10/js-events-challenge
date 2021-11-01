@@ -17,7 +17,7 @@ textColor()
 
 function textFont() {
     textFont = document.getElementById("text font");
-    textFont.style.fontStyle = "italic"
+    textFont.style.fontFamily = "sans-serif";
 }
 
 textFont()
