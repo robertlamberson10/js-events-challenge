@@ -2,13 +2,14 @@
     width: 300px;
     height: 80px;
     text-align: center;
-    background: white;
 }
 
 .dropzone {
-    width: 400px;
-    height: 40px;
+    width: 500px;
+    height: 110px;
     background: orangered;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
     padding: 20px;
+    position: absolute;
 }
