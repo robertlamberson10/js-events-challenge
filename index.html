@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Events Challenge</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>JavaScript Events Challenge</h1>
+
+    <button id="button" onclick="handleButtonColorChange()">Do It!</button>
+
+<div class="text color">
+    <p id="text color">
+        Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? Is it my imagination,
+        or have tempers become a little frayed on the ship lately? We have a saboteur aboard. Flair is what marks
+        the difference between artistry and mere competence. My oath is between Captain Kargan and myself. Your
+        only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant?
+    </p>
+</div>
+
+<div class="text font">
+    <p id="text font">
+        Yesterday I did not know how to eat gagh. This should be interesting. Besides, you look good in a dress.
+        Fate. It protects fools, little children, and ships named "Enterprise." Did you come here for something in
+        particular or just general Riker-bashing? Computer, lights up! That might've been one of the shortest assignments
+        in the history of Starfleet. Sure. You'd be surprised how far a hug goes with Geordi, or Worf.
+    </p>
+</div>
+
+<div class="dropzone">
+    <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+        I'd like to think that I haven't changed those things, sir. Now, how the hell do we defeat an enemy that knows
+        us better than we know ourselves? Could someone survive inside a transporter buffer for 75 years? I've had twelve
+        years to think about it.
+</div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
+</div>
+
+<script src="./js.js"></script>
+</body>
+</html>
